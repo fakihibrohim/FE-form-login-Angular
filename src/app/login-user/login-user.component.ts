@@ -10,4 +10,8 @@ export class LoginUserComponent {
 
   user:User = new User();
 
+  LoginUser(){
+    console.log(this.user)
+  }
+
 }

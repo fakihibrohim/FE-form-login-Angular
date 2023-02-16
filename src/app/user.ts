@@ -1,4 +1,7 @@
+import { CheckboxRequiredValidator } from "@angular/forms";
+
 export class User {
-    email!:string;
+    Email!:string;
     password!:string;
+    Check!:CheckboxRequiredValidator;
 }
