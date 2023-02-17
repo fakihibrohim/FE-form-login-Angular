@@ -1,10 +1,10 @@
 <div class="container col-md-7">
     <h1 style="color:blue">WELCOME TO USER</h1>
     <h4 style="color :deepskyblue">new experience the innovations in the system</h4>
-    <form (ngSubmit)="LoginUser">
+    <form (ngSubmit)="LoginUser()">
         <div class="mb-2">
           <label for="InputEmail" class="form-label">Email</label>
-          <input type="text" [(ngModel)]="user.Email" class="form-control" id="Email" name="Email">
+          <input type="email" [(ngModel)]="user.Email" class="form-control" id="Email" name="Email">
         </div>
         <div class="mb-2">
           <label for="InputPassword" class="form-label">Password</label>
